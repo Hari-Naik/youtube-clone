@@ -1,0 +1,15 @@
+.searchPage{
+	display: flex;
+}
+
+.search_result {
+	flex: 1;
+	height: 100vh;
+	overflow-y: auto;
+}
+
+.search_result > ul {
+	padding: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+}

@@ -1,0 +1,37 @@
+.sidebar_item {
+	display: flex;
+	align-items: center;
+	height: 40px;
+	width: 90%;
+	padding-left: 10px;
+	cursor: pointer;
+	border-radius: 8px;
+}
+
+.activeTab_style{
+	background-color: hsla(0, 0%, 100%, 0.08);
+}
+
+a {
+	text-decoration: none;
+}
+
+.sidebar_item:hover{
+	background-color: hsla(0, 0%, 100%, 0.08);
+}
+
+.sidebar_item_icon {
+	font-size: 20px !important;
+	color: #fff !important;
+	margin-right: 24px;
+}
+
+.sidebar_item_title{
+	color: #fff;
+	font-family: "Roboto","Arial",sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+

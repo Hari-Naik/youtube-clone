@@ -1,0 +1,285 @@
+.link_item {
+	text-decoration: none;
+	z-index: 1;
+	transition: transform 450ms;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+
+@media screen and (min-width:768px) {
+	.link_item:hover {
+		border-radius: 8px;
+		z-index: 10;
+		margin-bottom: -20px;
+		cursor: pointer;
+		transform: scale(1.1);
+		background-color: #222121;
+	}
+}
+
+
+.video_item {
+	list-style: none;
+}
+
+.search_page_style {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin-bottom: 3px;
+	text-decoration: none;
+}
+
+@media screen and (min-width:768px) {
+	.search_page_style {
+		flex-direction: row;
+	}
+}
+
+.search_page_style {
+	display: flex;
+}
+
+.thumbnail_container {
+	height: 180px;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 10px;
+	border-radius: 0px;
+}
+
+@media screen and (min-width:600px) {
+	.search_page_thumbnail_container{
+		height: 220px;
+	}
+}
+
+@media screen and (min-width:768px) {
+	.thumbnail_container {
+		height: 160px;
+		border-radius: 8px;
+	}
+
+	.search_page_thumbnail_container {
+		width:350px;
+	}
+}
+
+
+
+
+.thumbnail_img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+@media screen and (min-width:768px){
+	.thumbnail_img{
+		border-radius: 8px;
+	}
+}
+.video_item_time {
+	position: absolute;
+	right: 8px;
+	bottom: 0px;
+	color: #fff;
+	padding: 3px;
+	border-radius: 4px;
+	font-size: 12px;
+	font-weight: 700;
+	background-color: #0f0f0f;
+}
+
+
+.video_item_content {
+	padding: 10px;
+	display: flex;
+}
+
+@media screen and (min-width:768px) {
+		.video_item_content{
+			padding: 0;
+		}
+}
+
+.avatar_container {
+	height: 34px;
+	width: 34px;
+	border-radius: 50%;
+}
+
+
+.avatar_img {
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+}
+
+.video_item_info {
+	position: relative;
+	padding-left: 20px;
+}
+
+.video_item_info_title {
+	color: #fff;
+	font-family: "Roboto", "Arial", sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+@media screen and (min-width:768px) {
+	.video_item_info_title {
+		font-size: 13px;
+		padding-bottom: 40px;
+	}
+
+	.search_page_title {
+		font-size: 18px;
+	}
+}
+
+
+.video_item_info>div {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	width: 100%;
+	margin-top: 5px;
+}
+
+@media screen and (min-width:768px) {
+	.video_item_info>div {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+}
+
+.channel_container {
+	display: flex;
+	align-items: center;
+	margin-right: 10px;
+}
+
+.search_page_profile_img {
+	display: none;
+}
+
+
+@media screen and (min-width:768px) {
+	.search_page_profile_img {
+		display: flex;
+		height: 25px;
+		width: 25px;
+		border-radius: 50%;
+		margin-right: 10px;
+	}
+}
+
+.channel_name {
+	font-size: 12px;
+	color: #aaa;
+	margin-right: 2px;
+}
+
+
+.stats_container {
+	display: flex;
+	align-items: center;
+	color: #aaa;
+	font-family: "Roboto", "Arial", sans-serif;
+	font-size: 12px;
+	/* margin-left: 10px; */
+	font-weight: 400;
+}
+
+@media screen and (min-width:768px) {
+	.stats_container {
+		margin-left: 0px;
+	}
+}
+
+.search_page_stats_screen {
+	display: none !important;
+}
+
+@media screen and (min-width:768px) {
+	.search_page_stats_screen {
+		display: flex !important;
+		flex-direction: row !important;
+		color: #aaa;
+		font-family: "Roboto", "Arial", sans-serif;
+		font-size: 12px;
+		font-weight: 400;
+		margin-bottom: 20px;
+	}
+
+	.search_page_stats_mobile {
+		display: none;
+	}
+}
+
+
+
+.stats_container>span {
+	margin-right: 6px;
+}
+
+.dot_icon {
+	font-size: 12px;
+}
+
+.btns_container {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	display: none;
+	margin: auto;
+}
+
+.btns_container>button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 28px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	border-radius: 20px;
+	background-color: rgba(133, 128, 128);
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+.btns_container>button:hover {
+	background-color: rgba(133, 128, 128, 0.7);
+}
+
+.flex {
+	display: flex;
+}
+
+.btn_text {
+	color: #ded9d9;
+	margin-left: 10px;
+	font-weight: 500;
+}
+
+
+
+.skelton {
+	background-color: #212121;
+	animation: slide 4s infinite alternate;
+}
+
+
+@keyframes slide {
+	0% {
+		background-color: #212121;
+	}
+
+	100% {
+		background-color: #f1f1f1;
+	}
+}

@@ -1,0 +1,35 @@
+
+.home{
+	flex: 1;
+	height: 100%;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.home_lists  {
+	flex: 1;
+	display: grid;
+	grid-template-columns: 100%;
+	overflow-y: scroll;
+	height: 90vh;
+	padding-left: 20px;
+}
+
+
+@media screen and (min-width:600px) {
+	.home_lists{
+		grid-template-columns:50% 50%;
+	}
+}
+
+@media screen and (min-width:992px) {
+	.home_lists{
+		grid-template-columns:33% 33% 33%;
+	}
+}
+
+@media screen and (min-width:1240px) {
+	.home_lists{
+		grid-template-columns:25% 25% 25% 25%;
+	}
+}
