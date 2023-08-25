@@ -160,9 +160,15 @@ nav {
 		background-color: hsl(0, 0%, 18.82%);
 	}
 }
+
 .avatar{
-	height: 35px;
-	width: 35px;
+	height: 25px;
+	width: 25px;
+	cursor: pointer;
+}
+
+.onTap{
+	transform: scale(0.99);
 }
 
 .avatar > img {
@@ -213,4 +219,29 @@ nav {
 
 .option_item_text {
 	padding-left: 10px;
+}
+
+.sign_in_btn{
+	color: #3ea6ff;
+	background: transparent;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid hsl(0, 0%, 18.82%);
+	height: 32px;
+	width: 90px;
+	border-radius: 20px;
+	font-size: 14px;
+	font-weight: 700;
+	cursor: pointer;
+	transition: all 200ms;
+}
+
+/* .sign_in_btn:hover{
+	background-color: #00aaa7;
+} */
+
+.sign_in_btn_icon{
+	font-size: 18px;
+	margin-right: 4px;
 }

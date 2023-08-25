@@ -1,0 +1,81 @@
+.user_profile {
+	position: absolute;
+	top: 20px;
+	right: 50px;
+	width: max-content;
+	background-color: #282828;
+	border-radius: 10px;
+	z-index: 50;
+}
+
+.user_info {
+	display: flex;
+	padding: 10px;
+	margin-bottom: 0px;
+}
+
+.user_info>img {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+
+.user_info>div {
+	display: flex;
+	flex-direction: column;
+	margin-left: 10px;
+	color: #f1f1f1;
+}
+
+.user_name {
+	font-size: 15px;
+	font-family: sans-serif;
+}
+
+.user_email {
+	font-size: 13px;
+	font-family: sans-serif;
+}
+
+.user_info>div>p {
+	font-size: 14px;
+	font-family: sans-serif;
+	color: #3EA6FF;
+	cursor: pointer;
+}
+
+
+.signout_section {
+	/* padding: 10px; */
+	flex: 1;
+	border-top: 1px solid #717171;
+}
+
+.signout_section > div {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	color: #f1f1f1;
+	padding: 10px;
+	cursor: pointer;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+.signout_section > div .icons{
+	font-size: 18px;
+}
+
+.sign_out{
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.flex_end {
+	margin-left: auto;
+}
+
+.signout_section > div:hover{
+	background: gray;
+}

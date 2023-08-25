@@ -276,3 +276,20 @@
 	width: 100%;
 	padding: 0;
 }
+
+.comment_screen{
+	display: none;
+}
+
+.comment_mobile{
+	display: block;
+}
+
+@media  (min-width: 1024px) {
+	.comment_screen{
+		display: block;
+	}
+	.comment_mobile{
+		display: none;
+	}
+}
