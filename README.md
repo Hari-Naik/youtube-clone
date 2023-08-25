@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Demo Live:[](https://youtube-clone-45ow8dhru-hari-naik.vercel.app/).
+[Demo](https://youtube-clone-45ow8dhru-hari-naik.vercel.app/).
 
 ## Available Scripts
 
